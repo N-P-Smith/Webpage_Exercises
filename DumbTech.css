@@ -1,0 +1,47 @@
+/* DumbTech.css */
+body {
+    background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.domestika.org%2Fc_fill%2Cdpr_auto%2Cf_auto%2Cq_auto%2Fv1559492447%2Fcontent-items%2F003%2F028%2F820%2FCRISTAL_retocado-original.jpg%3F1559492447&f=1&nofb=1&ipt=b6365d50c12b0908303b697251be9983b197842b5b5993c5451f4d27c246be4d&ipo=images') no-repeat center center/cover;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;  /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Centers items horizontally */
+}
+
+nav ul li {
+    margin: 0 15px; /* Space between items */
+}
+
+nav ul li a {
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px; /* Adds clickable space */
+    display: block; /* Makes the entire area clickable */
+}
+
+nav ul li a:hover {
+    color: rgb(35, 196, 188);
+}
+
+h1 {
+    font-size: 144px;
+    color: rgb(235, 235, 235);
+}
+
+p {
+    font-size: 18px;
+    color: rgb(235, 235, 235);
+}
